@@ -20,7 +20,7 @@ def query_with_cag(context: str, query: str) -> str:
     model = genai.GenerativeModel("gemini-1.5-flash")
     response = model.generate_content(prompt)
     return response.text.strip()
-st.title("RAG Application with Google Gemini - by Nirmal Gaud")
+st.title("RAG Application with Google Gemini - by vabilisetti manasa")
 st.header("Upload a PDF and Ask Your Query")
 
 # Step 1: Ask the user to upload a PDF file
